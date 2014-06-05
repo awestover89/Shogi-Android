@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bgjapan">
+
+<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:id="@+id/tourny"
+		android:layout_marginTop="50dip"
+		android:layout_marginBottom="50dip"
+		android:text="Tournament">
+		</Button>
+
+<Button android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_centerHorizontal="true" 
+		android:layout_above="@id/tourny"
+		android:id="@+id/cpu" 
+		android:text="Vs. CPU">
+		</Button>
+		
+<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/tourny"
+		android:text="2 Player">
+		</Button>
+
+</RelativeLayout>

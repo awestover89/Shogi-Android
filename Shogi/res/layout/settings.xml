@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<ScrollView android:id="@+id/ScrollView01" 
+			android:fillViewport="true"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+</ScrollView>
+<CheckBox android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:checked="false" 
+				android:id="@+id/legalmovescheck" 
+				android:text="Show legal moves">
+</CheckBox>
+<CheckBox android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:checked="true" 
+				android:id="@+id/japanesenamescheck" 
+				android:text="Use Japanese names">
+</CheckBox>
+<CheckBox android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:checked="false" 
+				android:id="@+id/warncheckcheck" 
+				android:text="Warn when King is in check">
+</CheckBox>
+<CheckBox android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:checked="true" 
+				android:id="@+id/soundcheck" 
+				android:text="Enable background sound">
+</CheckBox>
+<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Done"
+			android:onClick="submit"
+			></Button>
+				
+</LinearLayout>

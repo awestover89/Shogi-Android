@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <com.Shogi.View.ShogiBoardView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:keepScreenOn="true"
+  	android:id="@+id/boardview"
+  ></com.Shogi.View.ShogiBoardView>
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:id="@+id/playerhandtext"
+  	android:text="Current Player's Hand"
+  ></TextView>
+  <com.Shogi.View.HandView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:id="@+id/handview"
+  ></com.Shogi.View.HandView>
+  
+</LinearLayout>
